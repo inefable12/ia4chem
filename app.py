@@ -17,3 +17,6 @@ df_gpu.set_index('Sistemas Operativos').plot(kind='bar', ax=ax)
 ax.set_ylabel('Puntuación (0-10)')
 ax.set_title('Comparación de Soporte de GPU por Sistema Operativo')
 st.pyplot(fig)
+
+if __name__ == "__main__":
+    main()
